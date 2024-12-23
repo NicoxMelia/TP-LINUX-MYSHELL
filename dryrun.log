@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/nico/Documentos/soi-2023-lab2-myshell-NicoxMelia'
+gcc -o prueba myshell.c prompt.c runfile.c runner.c sigmanager.c jobid.c
+./prueba
+make: Leaving directory '/home/nico/Documentos/soi-2023-lab2-myshell-NicoxMelia'
+ 
